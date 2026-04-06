@@ -13,3 +13,6 @@ __pycache__/
 
 # Ignore Jupyter checkpoints
 .ipynb_checkpoints/
+
+echo ".DS_Store" >> .gitignore
+echo ".vscode/" >> .gitignore
