@@ -5,7 +5,7 @@ venv/
 dataset/*
 
 # But optionally include a README for dataset instructions
-!dataset/train_test_split/README.md
+!dataset/README.md
 
 # Ignore Python cache
 __pycache__/
@@ -14,5 +14,11 @@ __pycache__/
 # Ignore Jupyter checkpoints
 .ipynb_checkpoints/
 
-echo ".DS_Store" >> .gitignore
-echo ".vscode/" >> .gitignore*.pth
+# Ignore model checkpoints
+*.pth
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore VS Code settings
+.vscode/
